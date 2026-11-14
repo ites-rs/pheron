@@ -1,4 +1,4 @@
-#### multi-hop c2  ( FOR EDUCATIONAL PURPOSES )
+#### multi-hop C2  ( FOR EDUCATIONAL PURPOSES )
 
 [in progress]
 
