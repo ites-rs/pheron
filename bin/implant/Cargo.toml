@@ -1,0 +1,8 @@
+[package]
+name = "implant"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+tokio.workspace = true
+tower.workspace = true

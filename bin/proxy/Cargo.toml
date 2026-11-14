@@ -1,0 +1,12 @@
+[package]
+name = "proxy"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+tokio.workspace = true
+anyhow.workspace = true
+tracing.workspace = true
+dashmap.workspace = true
+tokio-util.workspace = true
+tracing-subscriber.workspace = true

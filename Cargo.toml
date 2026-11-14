@@ -1,0 +1,20 @@
+[workspace]
+resolver = "3"
+members = [
+    "bin/implant", 
+    "bin/proxy", 
+    "bin/server"
+]
+
+[workspace.package]
+edition = "2024"
+version = "0.1.0"
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-util = { version = "0.7", features = ["rt"] }
+tower = { version = "0.5", features = ["util"] }
+anyhow = "1"
+tracing = "0.1.44"
+dashmap = "6.2.1"
+tracing-subscriber = {version="0.3.23", features=["fmt", "env-filter"]}
